@@ -2,7 +2,6 @@ package app
 
 import (
 	"github.com/spf13/viper"
-	"github.com/terra-project/core/x/wasm"
 	"io"
 	"os"
 
@@ -19,6 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	distrclient "github.com/cosmos/cosmos-sdk/x/distribution/client"
 	paramsclient "github.com/cosmos/cosmos-sdk/x/params/client"
+
+	"github.com/CosmWasm/wasmd/x/wasm"
 
 	treasuryclient "github.com/terra-project/core/x/treasury/client"
 
